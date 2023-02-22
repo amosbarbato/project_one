@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+:root {
+    --red: #af0202;
+    --black: #0a0a0a;
+    --white: #e6e6e6;
+}
+
+p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+h1 {
+    color: #fff;
+    font-size: 62px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 31px;
+}
+
+h3 {
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.container  {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section img {
+    max-width: 100%;
+}
+
+header .container,
+section .container, 
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: var(--red);
+}
+
+.navbar .logo h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.navbar .logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navbar .logo img {
+    max-height: 80px;
+    position: absolute;
+}
+
+.navbar .logo h1 {
+    position: relative;
+    left: 80px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#about {
+    background-color: #151515;
+    background-image: url(./images/bg-fla-1.png);
+}
+
+#about .sobre, 
+#manto .sobre {
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+#about p,
+#manto p {
+    color: #fff;
+}
+
+#about .container, 
+#manto .container {
+    padding-top: 60px;
+}
+
+#about .container img, 
+#manto .container .sobre {
+    max-width: 600px;
+}
+
+#nextgame {
+    background-color: var(--white);
+}
+
+.teams,
+.data{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.data .content {
+    margin-right: 148px;
+}
+
+.teams .home {
+    height: 80px;
+}
+
+.teams .away {
+    height: 92px;
+}
+
+.teams .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.teams .divider span {
+    color: var(--red);
+    font-size: 28px;
+}
+
+.data .divider {
+    width: 4px;
+    background: #000;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 122px;
+}
+
+#manto {
+    background-color: #151515;
+    background-image: url(./images/bg-fla-2.png);
+}
+
+#manto .container {
+    height: 550px;
+    background: url(/images/manto.jpg);
+    background-size: 1170px;
+}
+
+#torcida {
+    background-color: var(--white);
+    background-image: url(./images/bg-fla-3.png);
+}
+
+#torcida .container {
+    height: 550px;
+    background: url(/images/torcedor.jpg);
+    background-size: 1170px;
+}
+
+#socios {
+    background-color: var(--white);
+    color: #fff;
+    background-image: url(./images/background.jpg);
+    background-size: 100%;
+}
+
+#socios h2 {
+    margin-bottom: 15px;
+}
+
+#socios,
+#nextgame,
+#address {
+    padding: 55px 200px;
+}
+
+.support-methods h2 {
+    padding-bottom: 10px;
+    font-size: 38px;
+    color: #fff;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 0;
+    border-radius: 20px;
+}
+
+form button {
+    background-color: #101010;
+    color: #E6E6E6;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #252525;
+}
+
+input:focus, textarea:focus {
+    outline: #252525 solid 1px;
+}
+
+footer {
+    background-color: var(--black);
+    color: #fff;
+}
+
+footer address h4, li{
+    font-style: normal;
+    list-style-type: none;
+}
+
+.social-link img {
+    height: 24px;
+    filter: invert();
+}
+
+.social-link li{
+    display: inline;
+    margin-right: 8px;
+    margin-left: 15px
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+#end {
+    padding: 10px;
+}

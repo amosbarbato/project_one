@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR Flamengo</title>
+    <link rel="stylesheet" href="main.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');</style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#" title="Inicio">
+                        <img src="./images/logo-flamengo.png" alt="CR Flamengo">
+                    </a>
+                    <h1>CR Flamengo</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#nextgame">Proxima Partida</a></li>
+                        <li><a href="#manto">O manto</a></li>
+                        <li><a href="#socios">Seja Sócio</a></li>
+                        <li><a href="#address">Onde Estamos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="sobre">
+                <h1>O Site da Nação está de cara nova!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quisquam accusamus itaque dolorum eum excepturi molestiae saepe autem vel, velit rem officia deleniti cumque corrupti quidem consectetur, suscipit ut dolores.</p>
+            </div>
+            <img src="./images/jogadores.png" alt="Jogadores">        
+        </div>
+    </section>
+    <section id="nextgame">
+        <div class="container">
+            <div class="next">
+                <h3>Próximo jogo</h3>
+                <div class="nextgame-data teams">
+                    <div class="teams">
+                        <img class="home" src="./images/logo-botafogo.png">
+                        <div class="divider">
+                            <span>x</span>
+                        </div>
+                        <img class="away" src="./images/logo-flamengo.png">
+                    </div>
+                    <div class="data">
+                        <div class="content">
+                            <h2>Botafogo</h2>
+                            <h2 style="font-size: 38px; color: var(--red);">Flamengo</h2>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="content-data">
+                            <h4>Campeonato Carioca 2023</h4>
+                            <h2>25 fev. - 18:00</h2>
+                            <h2 style="color: var(--red);">Mané Garrincha</h2>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="manto">
+        <div class="container">
+            <div class="sobre">
+                <h1>O manto Sagrado!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quisquam accusamus itaque dolorum eum excepturi molestiae saepe autem vel, velit rem officia deleniti cumque corrupti quidem consectetur, suscipit ut dolores.</p>
+            </div>
+        </div>
+    </section>
+    <section id="torcida">
+        <div class="container"></div>
+    </section>
+    <section id="socios">
+        <div class="container">
+            <div>
+                <h2>É socio-torcedor?</br>Acesse</h2>
+                <form>
+                    <input type="email" placeholder="Seu Email" required />
+                    <input type="password" placeholder="Sua Senha" required/>
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+            <div>
+                <h2>Ainda não é Socio?</br>Cadastre-se</h2>
+                <form>
+                    <input type="text" placeholder="Digite seu nome" required />
+                    <input type="text" name="cpf" 
+                    \pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" 
+                    \title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+                    <button type="submit">Verificar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="address">
+        <div class="container">
+            <address>
+                <h4>Sede Gávea</h4>
+                <ul>
+                    <li>Av. Borges de Medeiros, 997</li>
+                    <li>Lagoa - Rio de Janeiro/RJ - Brasil</li>
+                    <li>CEP: 22430-041 - Tel:(21) 2159-0100</li>
+                </ul>
+            </address>
+            <address>
+                <h4>CT George Helal</h4>
+                <ul>
+                    <li>Estrada dos Bandeirantes, 25.997</li>
+                    <li>Vargem Grande - Rio de Janeiro/RJ - Brasil</li>
+                    <li>CEP: 22785-275</li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+    <footer id="end">
+        <div class="container">
+            <p style="font-size: 15px;">
+                &copy; Todos os direitos reservados - 2023
+            </p>
+            <ul class="social-link">
+                <li>
+                    <a href="#" title="Visite nosso Canal do youtube">
+                        <img src="./images/logotipo-youtube.png" alt="Youtube" />                             
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no instagram">
+                        <img src="./images/logotipo-instagram.png" alt="Instagram" />                             
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no facebook">
+                        <img src="./images/logotipo-facebook.png" alt="Facebook" /> 
+                    </a>
+                </li>                
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
